@@ -30,3 +30,9 @@
     - cd /etc/jenkins_ssh
   - #### Файлы для build:
     - bash /etc/jenkins_ssh/prod.sh - скрипт прода (с параметром), должен запускаться jenkins
+
+## Сервер jenkins:
+    - шаг 1: запуск "bash /etc/jenkins_ssh/build.sh" на сервере build
+    - шаг 2: запуск "bash /etc/jenkins_ssh/prod.sh" на сервере prod
+
+## Смотрим http://prod_ip:80/index.html
