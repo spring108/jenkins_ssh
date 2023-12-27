@@ -17,7 +17,7 @@
   - #### Файлы для build:
     - /etc/jenkins_ssh/index-template.html - шаблон
     - /etc/jenkins_ssh/Dockerfile - описание образа
-    - bash /etc/jenkins_ssh/build.sh - скрипт сборщика, должен запускаться jenkins
+    - bash /etc/jenkins_ssh/build.sh - скрипт сборщика (с параметром), должен запускаться jenkins
 
 
 ## Сервер prod:
@@ -29,4 +29,4 @@
     - git clone https://github.com/spring108/jenkins_ssh.git
     - cd /etc/jenkins_ssh
   - #### Файлы для build:
-    - bash /etc/jenkins_ssh/prod.sh - скрипт прода, должен запускаться jenkins
+    - bash /etc/jenkins_ssh/prod.sh - скрипт прода (с параметром), должен запускаться jenkins
