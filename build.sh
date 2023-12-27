@@ -4,9 +4,11 @@ my_version=$1
 
 if [ "$my_version" = "" ]
 then
-	echo 'Версия не указана в первом параметре'
+	echo 'No version in first parameter'
 	exit
 fi
+
+echo '{"insecure-registries" : ["158.160.108.198:8123*"]}' > /etc/docker/daemon.json
 
 cd /etc/jenkins_ssh
 
