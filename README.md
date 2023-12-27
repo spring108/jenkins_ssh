@@ -16,6 +16,7 @@
     - cd /etc/jenkins_ssh
   - #### Файлы для build:
     - /etc/jenkins_ssh/index-template.html - шаблон
+    - /etc/jenkins_ssh/Dockerfile - описание образа
     - /etc/jenkins_ssh/build.sh - скрипт сборщика, должен запускаться jenkins
 
 
