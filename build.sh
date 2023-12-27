@@ -9,8 +9,7 @@ then
 fi
 
 cd /etc/jenkins_ssh
-yes | cp index-template.html index.html
 
-sed -e "s/QQQ123QQQ/$my_version/" ./index.html
+sed -e "s/QQQ123QQQ/$my_version/" ./index-template.html > ./index.html
 
 
